@@ -8,7 +8,7 @@ import org.osgi.framework.ServiceRegistration;
 
 public class Activator implements BundleActivator {
     
-    private ServiceRegistration<?> buchverwaltungservice;
+    private ServiceRegistration buchverwaltungservice;
     
     public void start(BundleContext context) throws Exception {
         // TODO add activation code here
